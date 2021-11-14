@@ -685,13 +685,6 @@ num_dupes.insert(loc = 0, column = 'Response', value = y_train[dup_ids == True])
 num_dupes[num_dupes['Response'] == 1].sort_index().head()
 ```
 
-    C:\Users\kalika01\Anaconda\envs\pytorch_gpu\lib\site-packages\IPython\core\interactiveshell.py:3361: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
-      if (await self.run_code(code, result,  async_=asy)):
-    
-
-
-
-
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
