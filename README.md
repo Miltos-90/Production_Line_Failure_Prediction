@@ -685,20 +685,6 @@ num_dupes.insert(loc = 0, column = 'Response', value = y_train[dup_ids == True])
 num_dupes[num_dupes['Response'] == 1].sort_index().head()
 ```
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
