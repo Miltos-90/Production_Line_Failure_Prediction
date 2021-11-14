@@ -110,7 +110,7 @@ train and test categorical files: 97% missing.
 
 We should probably move to a sparse storage / loading format.
 
-# Headers
+## Headers
 
 
 ```python
@@ -218,7 +218,7 @@ df_num.drop('Response', axis = 1, inplace = True)
       0%|          | 0/6 [00:00<?, ?it/s]
 
 
-## Response
+### Response
 
 
 ```python
@@ -234,7 +234,7 @@ print(f"Ratio [%]: {np.sum(y == 1) / np.sum(y == 0)*100}")
 
 Highly imbalanced
 
-## Make KFold sets and holdout set
+### Make KFold sets and holdout set
 
 
 
