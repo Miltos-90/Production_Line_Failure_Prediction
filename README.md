@@ -363,10 +363,6 @@ xgb_imp = pd.DataFrame({'feature' : X.columns, 'importance': xgb.feature_importa
 xgb_imp.to_csv('./xgb_imp.csv')
 ```
 
-    C:\Users\kalika01\Anaconda\envs\pytorch_gpu\lib\site-packages\ipykernel_launcher.py:1: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
-      """Entry point for launching an IPython kernel.
-    
-
     [0]	validation_0-logloss:0.68676	validation_1-logloss:0.68687
     [1]	validation_0-logloss:0.67690	validation_1-logloss:0.67698
     [2]	validation_0-logloss:0.66744	validation_1-logloss:0.66782
