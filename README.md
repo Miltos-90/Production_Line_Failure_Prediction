@@ -167,19 +167,19 @@ for line, group in f.groupby('line'):
 
 
     
-![png](output_7_1.png)
+![png](./imm/output_7_1.png)
     
 
 
 
     
-![png](output_7_2.png)
+![png](./imm/output_7_2.png)
     
 
 
 
     
-![png](output_7_3.png)
+![png](./imm/output_7_3.png)
     
 
 
@@ -320,7 +320,7 @@ no_samples = train_num.shape[0]
 
 
     
-![png](output_20_0.png)
+![png](./imm/output_20_0.png)
     
 
 
@@ -445,7 +445,7 @@ plt.legend(['Threshold', 'Feature Importance']);
 
 
     
-![png](output_24_0.png)
+![png](./imm/output_24_0.png)
     
 
 
@@ -496,7 +496,7 @@ plt.xticks(rotation = 90);
 
 
     
-![png](output_30_0.png)
+![png](./imm/output_30_0.png)
     
 
 
@@ -516,7 +516,7 @@ no_samples = train_num.shape[0]
 
 
     
-![png](output_32_0.png)
+![png](./imm/output_32_0.png)
     
 
 
@@ -598,13 +598,13 @@ plt.title('Missing Values - Pearson Correlation');
 
 
     
-![png](output_35_0.png)
+![png](./imm/output_35_0.png)
     
 
 
 
     
-![png](output_35_1.png)
+![png](./imm/output_35_1.png)
     
 
 
@@ -1033,7 +1033,7 @@ num_dupes[['Id', 'Response']].iloc[idx].diff()[1::2].plot.hist();
 
 
     
-![png](output_49_0.png)
+![png](./imm/output_49_0.png)
     
 
 
@@ -1163,7 +1163,7 @@ plt.legend(['response = 0', 'response = 1']);
 
 
     
-![png](output_63_0.png)
+![png](./imm/output_63_0.png)
     
 
 
@@ -1182,7 +1182,7 @@ plt.legend(['response = 0', 'response = 1']);
 
 
     
-![png](output_65_0.png)
+![png](./imm/output_65_0.png)
     
 
 
@@ -1241,7 +1241,7 @@ transition_seq.value_counts().sort_values(ascending = False).head(seq_to_plot).p
 
 
     
-![png](output_72_0.png)
+![png](./imm/output_72_0.png)
     
 
 
@@ -1347,7 +1347,7 @@ plt.title('Starting date of each record');
 
 
     
-![png](output_83_0.png)
+![png](./imm/output_83_0.png)
     
 
 
@@ -1373,7 +1373,7 @@ print('Timestamp granularity median:', start_dates['time'].diff().median())
 
 
     
-![png](output_85_1.png)
+![png](./imm/output_85_1.png)
     
 
 
@@ -1407,7 +1407,7 @@ plt.xlabel('Lag');
 
 
     
-![png](output_87_0.png)
+![png](./imm/output_87_0.png)
     
 
 
@@ -1460,7 +1460,7 @@ no_samples = df_cat.shape[0]
 
 
     
-![png](output_94_0.png)
+![png](./imm/output_94_0.png)
     
 
 
@@ -1802,5 +1802,5 @@ y_prob = clf.predict(dheld)
 print(f"Heldout Set MCC: {round(eval_mcc(y_holdout.to_numpy(), y_prob), 3)}")
 ```
 
-    Heldout Set MCC: 0.255
+    Heldout Set MCC: 0.485
     
