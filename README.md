@@ -362,63 +362,6 @@ print('Validation Set ROC-AUC: ', roc_auc_score(y_val_, y_pred))
 xgb_imp = pd.DataFrame({'feature' : X.columns, 'importance': xgb.feature_importances_})
 xgb_imp.to_csv('./xgb_imp.csv')
 ```
-
-    [0]	validation_0-logloss:0.68676	validation_1-logloss:0.68687
-    [1]	validation_0-logloss:0.67690	validation_1-logloss:0.67698
-    [2]	validation_0-logloss:0.66744	validation_1-logloss:0.66782
-    [3]	validation_0-logloss:0.65936	validation_1-logloss:0.65977
-    [4]	validation_0-logloss:0.64891	validation_1-logloss:0.64960
-    [5]	validation_0-logloss:0.63440	validation_1-logloss:0.63546
-    [6]	validation_0-logloss:0.62913	validation_1-logloss:0.63040
-    [7]	validation_0-logloss:0.61979	validation_1-logloss:0.62119
-    [8]	validation_0-logloss:0.61614	validation_1-logloss:0.61778
-    [9]	validation_0-logloss:0.61179	validation_1-logloss:0.61356
-    [10]	validation_0-logloss:0.60446	validation_1-logloss:0.60642
-    [11]	validation_0-logloss:0.59871	validation_1-logloss:0.60077
-    [12]	validation_0-logloss:0.59487	validation_1-logloss:0.59701
-    [13]	validation_0-logloss:0.58668	validation_1-logloss:0.58914
-    [14]	validation_0-logloss:0.58275	validation_1-logloss:0.58520
-    [15]	validation_0-logloss:0.58065	validation_1-logloss:0.58305
-    [16]	validation_0-logloss:0.57742	validation_1-logloss:0.57984
-    [17]	validation_0-logloss:0.57523	validation_1-logloss:0.57772
-    [18]	validation_0-logloss:0.57275	validation_1-logloss:0.57526
-    [19]	validation_0-logloss:0.56842	validation_1-logloss:0.57098
-    [20]	validation_0-logloss:0.56509	validation_1-logloss:0.56780
-    [21]	validation_0-logloss:0.56346	validation_1-logloss:0.56614
-    [22]	validation_0-logloss:0.55953	validation_1-logloss:0.56225
-    [23]	validation_0-logloss:0.55768	validation_1-logloss:0.56037
-    [24]	validation_0-logloss:0.55262	validation_1-logloss:0.55544
-    [25]	validation_0-logloss:0.55117	validation_1-logloss:0.55405
-    [26]	validation_0-logloss:0.54947	validation_1-logloss:0.55225
-    [27]	validation_0-logloss:0.54761	validation_1-logloss:0.55026
-    [28]	validation_0-logloss:0.53943	validation_1-logloss:0.54239
-    [29]	validation_0-logloss:0.53164	validation_1-logloss:0.53495
-    [30]	validation_0-logloss:0.52688	validation_1-logloss:0.53040
-    [31]	validation_0-logloss:0.52450	validation_1-logloss:0.52812
-    [32]	validation_0-logloss:0.52013	validation_1-logloss:0.52382
-    [33]	validation_0-logloss:0.51675	validation_1-logloss:0.52057
-    [34]	validation_0-logloss:0.51573	validation_1-logloss:0.51967
-    [35]	validation_0-logloss:0.50930	validation_1-logloss:0.51359
-    [36]	validation_0-logloss:0.50238	validation_1-logloss:0.50705
-    [37]	validation_0-logloss:0.49844	validation_1-logloss:0.50311
-    [38]	validation_0-logloss:0.49361	validation_1-logloss:0.49834
-    [39]	validation_0-logloss:0.49226	validation_1-logloss:0.49695
-    [40]	validation_0-logloss:0.49039	validation_1-logloss:0.49517
-    [41]	validation_0-logloss:0.48507	validation_1-logloss:0.49002
-    [42]	validation_0-logloss:0.48246	validation_1-logloss:0.48746
-    [43]	validation_0-logloss:0.47789	validation_1-logloss:0.48303
-    [44]	validation_0-logloss:0.47599	validation_1-logloss:0.48111
-    [45]	validation_0-logloss:0.47422	validation_1-logloss:0.47938
-    [46]	validation_0-logloss:0.46945	validation_1-logloss:0.47466
-    [47]	validation_0-logloss:0.46167	validation_1-logloss:0.46711
-    [48]	validation_0-logloss:0.45269	validation_1-logloss:0.45824
-    [49]	validation_0-logloss:0.44634	validation_1-logloss:0.45227
-    
-
-    C:\Users\kalika01\Anaconda\envs\pytorch_gpu\lib\site-packages\xgboost\data.py:114: UserWarning: Use subset (sliced data) of np.ndarray is not recommended because it will generate extra copies and increase memory consumption
-      "because it will generate extra copies and increase " +
-    
-
     Validation Set ROC-AUC:  0.6133061067065692
     
 
