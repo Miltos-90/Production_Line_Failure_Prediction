@@ -1,5 +1,11 @@
-# Bosch_production_line_performance
-Solution to the Kaggle Bosch Production Line Performance Challenge
+# Bosch production line performance
+In this [competition](https://www.kaggle.com/c/bosch-production-line-performance/) we need to predict internal failures using thousands of measurements and tests made for each component along the assembly line. 
+
+The data for this competition represents measurements of parts as they move through Bosch's production lines. Each part has a unique Id. The goal is to predict which parts will fail quality control (represented by a 'Response' = 1).
+
+The dataset contains an extremely large number of anonymized features. Features are named according to a convention that tells you the production line, the station on the line, and a feature number. E.g. L3_S36_F3939 is a feature measured on line 3, station 36, and is feature number 3939.
+
+## Libraries
 
 ```python
 import numpy as np # linear algebra
